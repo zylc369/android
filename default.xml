@@ -6,6 +6,9 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-5.1.1_r37" />
 
+  <remote  name="github_buwai"
+           fetch="https://github.com/zylc369" />
+
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
@@ -335,7 +338,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/base" name="zylc369/android_frameworks_base" revision="cm-12.1-buwai" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
