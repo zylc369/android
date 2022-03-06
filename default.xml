@@ -9,7 +9,7 @@
   <remote  name="github_buwai"
            fetch="https://github.com/zylc369"
            revision="cm-12.1-buwai"
-           review="https://android-review.googlesource.com/" />
+           review="review.cyanogenmod.org" />
 
   <remote  name="github"
            fetch=".."
